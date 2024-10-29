@@ -2,15 +2,30 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+}
+.back-video {
+   position: absolute;
+   right: 0;
+   bottom: 0;
 }
 
+nav {
+    z-index: 1;
+    position: absolute;
+    right: 48px;
+    bottom: 0;
+    top: 59px;
+}
 .navbar {
     width: 100%;
-    max-width: 1200px;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
 }
 
 .logo img {
@@ -128,8 +143,8 @@ section .banner-desc {
 section .see-more-picture {
     width: 40%;
     box-shadow: 5px 9px 9px -5px rgba(153,133,133,0.75);
--webkit-box-shadow: 5px 9px 9px -5px rgba(153,133,133,0.75);
--moz-box-shadow: 5px 9px 9px -5px rgba(153,133,133,0.75);
+    -webkit-box-shadow: 5px 9px 9px -5px rgba(153,133,133,0.75);
+    -moz-box-shadow: 5px 9px 9px -5px rgba(153,133,133,0.75);
 }
 
 section .see-more-desc {
